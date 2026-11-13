@@ -1,6 +1,6 @@
 # WindRose MCP for ChatGPT
 
-Connect **ChatGPT** — or your own app built on the **OpenAI API** — to [WindRose](https://windroses.world): live readings, history, climatology and records from the public WindRose network of personal weather stations and from **your own stations**, plus heat-stress indices, pollutant dispersion, forecasts, the official hardware manuals, and your alerts and monitoring.
+Connect **ChatGPT** — or your own app built on the **OpenAI API** — to [WindRose](https://windroses.world) and ask about **the weather stations you own**, whatever the brand: Davis WeatherLink, Ecowitt, Ambient Weather, WeatherFlow Tempest, Netatmo, AcuRite, METER ZENTRA, HOBO (LI-COR), METOS FieldClimate, Meteobridge, Barani MeteoHelix and Campbell Scientific. ChatGPT reads their live readings, full history, daily summaries, records and monthly normals, answers hardware questions from the official manuals, and on Business manages your alerts. The public WindRose network is there too, to compare your station with the ones around it.
 
 The MCP server is hosted by WindRose at `https://app.windroses.world/api/mcp.php` (Streamable HTTP, OAuth 2.1). This repo is the setup guide and ready-to-run API examples.
 
@@ -46,10 +46,10 @@ Complete examples: [`examples/responses_api.py`](examples/responses_api.py) and 
 
 ## Example questions
 
-- *Where is it raining right now in northern Italy?*
-- *Which stations within 50 km of Verona had the strongest gusts this week?*
-- *Rank the stations of Lombardy by total rain in October and show coverage.*
-- *What is the record low at station 3, and how does this month compare with its normals?*
+- *What is the all-time record low at my station, and how does this month compare with its normals?*
+- *Which nights this month dropped below 2 °C at my Ecowitt station?*
+- *Write a weekly weather report for my farm from my Davis station.*
+- *Compare my station with the nearest three this week.*
 - *What does the Ecowitt GW2000 manual say about Wi-Fi provisioning?*
 - *Estimate the dispersion footprint at my station with the current wind.*
 
