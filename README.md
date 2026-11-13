@@ -1,6 +1,6 @@
 # WindRose MCP for ChatGPT
 
-Connect **ChatGPT** — or your own app built on the **OpenAI API** — to [WindRose](https://windroses.world) and ask about **the weather stations you own**, whatever the brand: Davis WeatherLink, Ecowitt, Ambient Weather, WeatherFlow Tempest, Netatmo, AcuRite, METER ZENTRA, HOBO (LI-COR), METOS FieldClimate, Meteobridge, Barani MeteoHelix and Campbell Scientific. ChatGPT reads their live readings, full history, daily summaries, records and monthly normals, answers hardware questions from the official manuals, and on Business manages your alerts. The public WindRose network is there too, to compare your station with the ones around it.
+Connect **ChatGPT** — or your own app built on the **OpenAI API** — to [WindRose](https://windroses.world) and ask about **the weather stations you own**, whatever the brand: Davis WeatherLink, Ecowitt, Ambient Weather, WeatherFlow Tempest, Netatmo, AcuRite, METER ZENTRA, HOBO (LI-COR), METOS FieldClimate, Meteobridge, Barani MeteoHelix and Campbell Scientific. ChatGPT reads their live readings, full history, daily summaries, records and monthly normals, answers hardware questions from the official manuals, and on Business manages your alerts. And it can query every public station of the WindRose community, whatever the brand: compare your station with its neighbours, find where it is raining right now, or study rain, frost and heat across a whole region.
 
 The MCP server is hosted by WindRose at `https://app.windroses.world/api/mcp.php` (Streamable HTTP, OAuth 2.1). This repo is the setup guide and ready-to-run API examples.
 
@@ -50,6 +50,8 @@ Complete examples: [`examples/responses_api.py`](examples/responses_api.py) and 
 - *Which nights this month dropped below 2 °C at my Ecowitt station?*
 - *Write a weekly weather report for my farm from my Davis station.*
 - *Compare my station with the nearest three this week.*
+- *Where is it raining right now across the community stations of northern Italy?*
+- *Rank the community stations of Lombardy by rain in October.*
 - *What does the Ecowitt GW2000 manual say about Wi-Fi provisioning?*
 - *Estimate the dispersion footprint at my station with the current wind.*
 
